@@ -18,4 +18,4 @@ An app that aims to help people identify parks and green spaces around Bristol, 
 ## Project Scope
 TODO: Scope of the System of Interest. Include a bullet list of things from your context diagram that are in scope.
 
-![Insert your Context Diagram Here](images/context.png)
+![Insert your Context Diagram Here](images/contextdiagram.png)
