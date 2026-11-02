@@ -3,11 +3,22 @@
 ## User Needs
 
 ### User stories
-TODO: Write brief user stories to explain how various actors would interact with the system to accomplish a goal.
-    Express these in the form from agile development:- As a (role) I want (goal) so that (benefit).
+* as a citizen, I want to search for parks so that I can go to a specific park
+* as a citizen, I want to filter parks by distance so that I know which parks are walking distance
+* as a citizen, I want to use a map to so that I can go to a park close to me
+* as a citizen, I want to find a park with disability options so that I can go to a park with mobility support
+* as a citizen, I want to find a park with sporting equipment so that I can exercise
+* as a citizen, I want to find a park with apparatus so that my children can go outside
+* as a citizen, I want to look at park opening times so that I can plan my trip
+* as a citizen, I want to look at photos of a park so I know which park I can go to
+
+* as a city council worker, I want to use manage park information so that citizens can be updated with new information
+* as a organisation, I want to see what parks are available so that I can use it as a venue for my event
 
 ### Actors
-TODO: List and describe the actors/users for this product.
+* Citizen  (local residents, visitor/tourists, parents, pet owners, athletes)
+* City council
+* Organisation
 
 ### Use Cases
 TODO: Describe each use case (at least one per team member).
@@ -27,7 +38,7 @@ TODO: Describe each use case (at least one per team member).
 
 TODO: Your Use-Case diagram should include all use-cases.
 
-![Insert your Use-Case Diagram Here](images/use-case.png)
+![Insert your Use-Case Diagram Here](images/usecasediagram.png)
 
 ## Software Requirements Specification
 ### Functional requirements
