@@ -62,20 +62,30 @@
 | **Non-functional** | 1. Information should be easy to read and understand 2. Photos should load 3. Information should disability-friendly 4. Park information should be accurate |
 
 
-TODO: Your Use-Case diagram should include all use-cases.
 
 ![Insert your Use-Case Diagram Here](images/usecasediagram.png)
 
 ## Software Requirements Specification
 ### Functional requirements
-TODO: create a list of functional requirements. 
-    e.g. "The system shall ..."
-    Give each functional requirement a unique ID. e.g. FR1, FR2, ...
-    Indicate which UC the requirement comes from.
-
+* FR1: The system must be able to locate parks relative to an area (UC1).
+* FR2: The system must be able to return a list of parks relative to an area (UC1).
+* FR3: The system must be able to get the users location (UC1).
+* FR4  The system must be able to display a graphical map (UC2).
+* FR5: The system must allow users to interact with the map (UC2).
+* FR6: The system must be able to accept search inputs (UC3).
+* FR7: The system must be able to return results based on a search (UC3).
+* FR8: The system must be to able to return search results with a filter (UC3).
+* FR9: The system must be able to display information about a park (UC4).
+* FR10: The system must be able to take the user to the park's website (UC4).
 
 
 ### Non-Functional Requirements
-TODO: Consider one or more [quality attributes](https://en.wikipedia.org/wiki/ISO/IEC_9126) to suggest a small number of non-functional requirements.
-Give each non-functional requirement a unique ID. e.g. NFR1, NFR2, ...
-
+* NFR1: The system be able to retrieve the users location.
+* NFR2: The system should suggest the user to expand their radius or choose a different location.
+* NFR3: The system should load park results fairly quickly. 
+* NFR4: The system should be able to make map markers or icons visible on the graphical map.
+* NFR5: The system should should provide accessible alternatives to visual maps.
+* NFR6: The system should return results accurately match chosen filters.
+* NFR7:The system should be able to returnmatching Users can select multiple filters or remove.
+* NFR8: The system should provide information should be easy to read and understand.
+* NFR9: Park information should be accurate.
