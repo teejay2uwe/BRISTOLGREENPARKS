@@ -67,17 +67,25 @@
 
 ## Software Requirements Specification
 ### Functional requirements
-* FR1: The system must be able to locate parks relative to an area (UC1).
-* FR2: The system must be able to return a list of parks relative to an area (UC1).
-* FR3: The system must be able to get the users location (UC1).
-* FR4  The system must be able to display a graphical map (UC2).
-* FR5: The system must allow users to interact with the map (UC2).
-* FR6: The system must be able to accept search inputs (UC3).
-* FR7: The system must be able to return results based on a search (UC3).
-* FR8: The system must be to able to return search results with a filter (UC3).
-* FR9: The system must be able to display information about a park (UC4).
-* FR10: The system must be able to take the user to the park's website (UC4).
-
+* FR1: Search for nearby parks (UC1)
+  * FR1.1: The system **must** be able to locate parks and green spaces, provided by given distance radius from the user's input
+  * FR1.2: The system **must** return and display parks and green spaces within a specified radius of the user’s selected location, from the Parks & Green spaces database
+  * FR1.3: The system **should** be able to get the users geo-location (if the user allows it), from the device's location permissions
+  * FR1.4  The system **can** track the users real time, dynamic location if they are using it with a mobile device
+* FR2: View a map of nearby parks (UC2)
+  * FR2.1: The system **must** be able to display a graphical map based from the parks & green spaces database
+  * FR2.2: The system **must** be able to allow the user to interact with the map (zoom in, zoom out) via the user's input
+  * FR2.3: The system **must** be able to provide more information & details about a chosen site from the user
+  * FR2.4: The system **must** be able to display graphical map markers for parks & green spaces
+* FR3: Filter maps by facilities (UC3)
+  * FR3.1: The system **must** be able to accept user facilities filters
+  * FR3.2: The system **must** be able to process user facility search, and return matching parks & green spaces
+  * FR3.3: The system **can** suggest similar parks & green spaces to the filters given by the user
+* FR4: View park information (UC4)
+  * FR4.1: The system **must** allow a user to select and view more information about a park/green space
+  * FR4.2: The system **must** provide information about the user's chosen park/green space (such as location, opening times, park's website, facilities, etc.)
+  * FR4.3: The system **can** allow users to provide user generated data (e.g. photos, reviews, comments, etc.)
+  * FR4.4: The system **can** provide the option to "take me there" by providing directions or transportation routes to the park/green space
 
 ### Non-Functional Requirements
 * NFR1: The system be able to retrieve the users location.
