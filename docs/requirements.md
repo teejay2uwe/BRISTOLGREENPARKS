@@ -13,10 +13,10 @@
 * as a citizen, I want to look at photos of a park so I know which park I can go to
 
 * as a city council worker, I want to use manage park information so that citizens can be updated with new information
-* as a organisation, I want to see what parks are available so that I can use it as a venue for my event
+* as an organisation, I want to see what parks are available so that I can use it as a venue for my event
 
 ### Actors
-* Citizen  (local residents, visitor/tourists, parents, pet owners, athletes)
+* Citizen  (local residents, visitor/tourists, parents, pet owners, sports people)
 * City council
 * Organisations
 
