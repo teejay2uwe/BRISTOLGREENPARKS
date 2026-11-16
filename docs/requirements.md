@@ -105,4 +105,4 @@
 * NFR8: The system should provide information should be easy to read and understand.
 *   * **Quality**: Text and images should be accessibility friendly
 * NFR9: Park information should be accurate and updated.
- * **Quality**: The system relies on the Open Data Bristol database
+   * **Quality**: The system relies on the Open Data Bristol database
