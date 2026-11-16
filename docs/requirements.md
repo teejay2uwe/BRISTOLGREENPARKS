@@ -89,20 +89,38 @@
 
 ### Non-Functional Requirements
 * NFR1: The system should be able to retrieve the users location.
-  * **Quality**: How accurate is the system able to get the user's exact location? 
+  * **Quality**: Accuracy  
+  * **Quality Attribute**: How accurate is the system able to get the user's exact location?
+  * **Quality Criteria**: We compare the user's actual location and the location the system returns. If the distance is within a mile, we can say that the ability of retrieving the location is accurate. 
 * NFR2: The system should suggest the user to expand their radius or choose a different location.
-  * **Quality**: This is to ensure that if there are no nearby results (parks and green spaces outside the user's location) and does not error.  
+  * **Quality**: Reliability  
+  * **Quality Attribute**: This is to ensure that if there are no nearby results (parks and green spaces outside the user's location) and does not error. 
+  * **Quality Criteria**: We test this by intentionally inputting an location where there are no nearby parks and green spaces. We test if the system breaks or will actually return a warning message or suggestion to search for a different location.
 * NFR3: The system should load park results fairly quickly.
-  * **Quality**: The system should be able to yield results in <5 seconds. Otherwise it may show a warning message unable to fetch results. 
+  * **Quality**: Functionality  
+  * **Quality Attribute**: The system should be able to yield results in <5 seconds.
+  * **Quality Criteria**: We test the system on a slow network. If it cannot fetch results in time, it should show a warning message unable to fetch results.
 * NFR4: The system should be able to make map markers or icons visible on the graphical map.
-  * **Quality**: It should have accessibility options so that everyone is able to use it. Map markers or icons should be clear and obvious.   
+  * **Quality**: Accessibility  
+  * **Quality Attribute**: It should have accessibility options so that everyone is able to use it. Map markers or icons should be clear and obvious.  
+  * **Quality Criteria**: We test the system on devices that can support accessibility options.
 * NFR5: The system should should provide accessible alternatives to visual maps.
-  * **Quality**: The user can opt in for a list, grid, graph display if they prefer.  
+  * **Quality**: Accessibility
+  * **Quality Attribute**: The user can opt in for a list, grid, graph display if they prefer.
+  * **Quality Criteria**: We test these options. 
 * NFR6: The system should return results accurately match chosen filters.
-  * **Quality**: The system should return park and green spaces results, that match chosen filters, distance, and location.
-* NFR7: The system should be able to return matching users can select multiple filters or remove.
-  * **Quality**: The system should be able to work with filters and results dynamically, the system should not produce errors when this happens. 
+  * **Quality**: Reliability
+  * **Quality Attribute**: The system should return park and green spaces results, that match chosen filters, distance, and location.
+  * **Quality Criteria**: We test the system with various searches and filters.
+* NFR7: The system should be able to return results from matching filters, can select or remove multiple filters.
+  * **Quality**: Fault-tolernce
+  * **Quality Attribute**: The system should return park and green spaces results, that match chosen filters, distance, and location. The system should be able to work with filters and results dynamically, the system should not produce errors when this happens.
+  * **Quality Criteria**: We test the system with various searches and filters.
 * NFR8: The system should provide information should be easy to read and understand.
-*   * **Quality**: Text and images should be accessibility friendly
+*   * **Quality**: Accessibility
+*   * **Quality Attribute**: Text and images should be accessibility friendly
+    * **Quality Criteria**: We test the system on devices that can support accessibility options and see if it works.
 * NFR9: Park information should be accurate and updated.
-   * **Quality**: The system relies on the Open Data Bristol database
+    * **Quality**: Accuracy
+    * **Quality Attribute**: The system relies on the Open Data Bristol database
+    * **Quality Criteria**: We compare the information found on the system and the information avaliable on the Open Data Bristol, and see if they are matching.
