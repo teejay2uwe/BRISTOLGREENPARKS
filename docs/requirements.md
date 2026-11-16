@@ -89,17 +89,20 @@
 
 ### Non-Functional Requirements
 * NFR1: The system should be able to retrieve the users location.
- * Quality: How accurate is the system able to get the user's exact location? 
+  * **Quality**: How accurate is the system able to get the user's exact location? 
 * NFR2: The system should suggest the user to expand their radius or choose a different location.
- * Quality: This is to ensure that if there are no nearby results (parks and green spaces outside the user's location).  
+  * **Quality**: This is to ensure that if there are no nearby results (parks and green spaces outside the user's location) and does not error.  
 * NFR3: The system should load park results fairly quickly.
- * Quality: The system should be able to yield results in <5 seconds 
+  * **Quality**: The system should be able to yield results in <5 seconds. Otherwise it may show a warning message unable to fetch results. 
 * NFR4: The system should be able to make map markers or icons visible on the graphical map.
- * Quality: It should have accessibility options so that everyone is able to use it   
+  * **Quality**: It should have accessibility options so that everyone is able to use it. Map markers or icons should be clear and obvious.   
 * NFR5: The system should should provide accessible alternatives to visual maps.
- * Quality: The user can opt in for a list, grid, graph display if they prefer.  
+  * **Quality**: The user can opt in for a list, grid, graph display if they prefer.  
 * NFR6: The system should return results accurately match chosen filters.
- * Quality: The system should return park and green spaces results, that match chosen filters, distance, and location
+  * **Quality**: The system should return park and green spaces results, that match chosen filters, distance, and location.
 * NFR7: The system should be able to return matching users can select multiple filters or remove.
+  * **Quality**: The system should be able to work with filters and results dynamically, the system should not produce errors when this happens. 
 * NFR8: The system should provide information should be easy to read and understand.
+*   * **Quality**: Text and images should be accessibility friendly
 * NFR9: Park information should be accurate and updated.
+ * **Quality**: The system relies on the Open Data Bristol database
