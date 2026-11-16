@@ -88,12 +88,18 @@
   * FR4.4: The system **can** provide the option to "take me there" by providing directions or transportation routes to the park/green space
 
 ### Non-Functional Requirements
-* NFR1: The system be able to retrieve the users location.
+* NFR1: The system should be able to retrieve the users location.
+ * Quality: How accurate is the system able to get the user's exact location? 
 * NFR2: The system should suggest the user to expand their radius or choose a different location.
-* NFR3: The system should load park results fairly quickly. 
+ * Quality: This is to ensure that if there are no nearby results (parks and green spaces outside the user's location).  
+* NFR3: The system should load park results fairly quickly.
+ * Quality: The system should be able to yield results in <5 seconds 
 * NFR4: The system should be able to make map markers or icons visible on the graphical map.
+ * Quality: It should have accessibility options so that everyone is able to use it   
 * NFR5: The system should should provide accessible alternatives to visual maps.
+ * Quality: The user can opt in for a list, grid, graph display if they prefer.  
 * NFR6: The system should return results accurately match chosen filters.
-* NFR7:The system should be able to returnmatching Users can select multiple filters or remove.
+ * Quality: The system should return park and green spaces results, that match chosen filters, distance, and location
+* NFR7: The system should be able to return matching users can select multiple filters or remove.
 * NFR8: The system should provide information should be easy to read and understand.
-* NFR9: Park information should be accurate.
+* NFR9: Park information should be accurate and updated.
